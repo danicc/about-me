@@ -1,0 +1,163 @@
+a {
+    text-decoration: none;
+}
+article {
+    margin-bottom: 20px;
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+header {
+    background-color: #263238;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+}
+h1 {
+    font-size: 5em;
+    margin: 20px 0;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 20px;
+}
+nav img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgba(0,0,0, .2);
+}
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+.nav-item {
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #BDBDBD;
+    transition: .3s;
+    will-change: transform;
+
+}
+.nav-item:active {
+    transform: scale(.9);
+}
+.nav-item:hover{
+    opacity: .2;
+}
+.nav-item.active {
+    color: white;
+}
+.sub-title {
+    font-size: 2em;
+}
+.content {
+    height: 400vh;
+    min-height: 3000px;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 300px;
+    background-color: #111719;
+    padding: 0 20px 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 40px;
+}
+.social-item {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.social-item:hover {
+    transform: rotate(360deg);
+}
+.social-icon {
+    font-size: 3em;
+    color: #111719;
+}
+.section-title {
+    font-size: 3em;
+}
+.article-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.article-title-container h3 {
+    font-size: 2em;
+    margin: 0;
+}
+.article-title-container p {
+    font-size: 1.2em;
+    margin: 0;
+}
+.article-subtitle {
+    font-size: 1.3em;
+    margin: 0;
+}
+.about {
+    min-height: 800px;
+}
+.experience {
+    min-height: 1000px;
+}
+.education {
+    min-height: 600px;
+}
+.skills {
+    min-height: 600px;
+}
+.description {
+    font-size: 1.2em;
+}
+.tech-tool-item {
+    color: white;
+    font-size: 2.5em;
+    margin-right: 1em;
+    transition: .3s;
+    will-change: transform color;
+}
+.tech-tool-item:hover {
+    transform: scale(1.3);
+    color: #a1d4ed;
+}
+.destacado {
+    color: #a1d4ed;
+}
